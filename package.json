@@ -37,7 +37,7 @@
     }
   },
   "lint-staged": {
-    "./src/trazemi/": [
+    "./src/trazemi/*.{ts|js}": [
       "npm run lint"
     ]
   },
